@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -8,15 +8,18 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="css/vendors/Bootstrap/bootstrap.min.css">
 
-
     <link href="css/plugins/navigation.min.css" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="css/main.min.css">
     <link rel="stylesheet" type="text/css" href="css/theme-font.min.css">
     <link rel="stylesheet" type="text/css" href="css/fatvalley.css">
     <link rel="stylesheet" type="text/css" href="css/vendors/fontawesome/all.min.css">
-
    
+   <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
 
 </head>
 <body>
@@ -85,6 +88,7 @@
         </div>
     </nav>
 
+
     <!-- ... end Main Header -->
 
 
@@ -105,11 +109,51 @@
 </section>
 <section><center>
 <br>
-<h1>Here will be some questions that is asked frequently.</h1>
-<h3>But its nothing here at the moment so take this gif!</h3>
-<img src="https://i.imgur.com/7crP8hS.gif" width="400px"></img>
-<h3>Waiting for Endorblast Release!</h3>
-
+<h3>Game Questions</h3>
+<div class="panel panel-default">
+    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#gameOne">
+        <h4 class="panel-title" >
+            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#gameOne">
+				<!-- Question Here -->
+				What is Endorblast?
+			</a>
+        </h4>
+    </div>
+    <div id="gameOne" class="panel-collapse collapse">
+        <div class="panel-body">
+		<!-- Answer Here -->
+        Endorblast is a 2D Online ARPG Side scroller game......  What else do we need to say?
+        </div>
+    </div>
+</div>
+<br>
+<h3>Economy Questions</h3>
+<div class="panel panel-default">
+    <div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#economyOne">
+        <h4 class="panel-title" >
+            <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#economyOne">
+				<!-- Question Here -->
+				How will Endorblast make money if its not Pay To Win?
+			</a>
+        </h4>
+    </div>
+    <div id="economyOne" class="panel-collapse collapse">
+        <div class="panel-body">
+		<!-- Answer Here -->
+        We that are working on Endorblast DON'T want to make a game where you will be able to pay 
+		your way to the top in form of in game items and buffs. Well it will have a store but not for that reason.
+		Well other MMORPGs have no pay to win but in other form cosmetic items and that will our store be for, Cosmetic Items only.
+		<br><br>
+		In the store you will be able to buy clothes, pets and other cosmetic items that will NEVER effect your gameplay.
+		<br>
+		If that system for cosmetic items is good we will of course add more content to that store like limited time items.
+		<br><br>
+		But we will never just focus on items for the store to make money because content in the game is more important to make the game fun to play.
+		
+        </div>
+    </div>
+</div>
+<br>
 </center></section>
 
 
@@ -145,7 +189,38 @@
     <script src="js/js-plugins/jquery.matchHeight.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/svg-loader.js"></script>
+	
+	<style>
+    .faqHeader {
+        font-size: 27px;
+        margin: 20px;
+    }
 
+    .panel-heading [data-toggle="collapse"]:after {
+        font-family: 'Glyphicons Halflings';
+        content: "\e072"; /* "play" icon */
+        float: right;
+        color: #F58723;
+        font-size: 18px;
+        line-height: 22px;
+        /* rotate "play" icon from > (right arrow) to down arrow */
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+    }
+
+    .panel-heading [data-toggle="collapse"].collapsed:after {
+        /* rotate "play" icon from > (right arrow) to ^ (up arrow) */
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #454444;
+    }
+	</style>
 </body>
 
 </html>
