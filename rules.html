@@ -1,5 +1,4 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
@@ -16,9 +15,8 @@
     <link rel="stylesheet" type="text/css" href="css/fatvalley.css">
     <link rel="stylesheet" type="text/css" href="css/vendors/fontawesome/all.min.css">
 
-
 </head>
-<body>
+<body >
 
     <!-- Main Header -->
 
@@ -27,7 +25,8 @@
             <div class="navigation-header">
                 <div class="navigation-logo">
                     <a href="index.html">
-                        <img src="img/IconForPage.png" alt="logo">
+                        <img loading="lazy" src="img/IconForPage.png" alt="logo">
+
                     </a>
                 </div>
                 <div class="navigation-button-toggler">
@@ -38,7 +37,10 @@
                 <div class="navigation-body-header">
                     <div class="navigation-logo">
                         <a href="index.html">
-                            <img src="img/IconForPage.png" alt="logo">
+
+
+                            <img loading="lazy" src="img/IconForPage.png" alt="logo">
+
                         </a>
                     </div>
                     <span class="navigation-body-close-button">&#10005;</span>
@@ -46,15 +48,40 @@
                 <ul class="navigation-menu">
 
                     <li class="navigation-item">
-                        <a class="navigation-link" href="https://zyrolul.itch.io/endorblast">Game</a>
+                        <a class="navigation-link" href="#">Game</a>
+                        <ul class="navigation-dropdown">
+                            <!-- <li class="navigation-dropdown-item"> -->
+                                <!-- <a class="navigation-dropdown-link" href="Feature.html"> -->
+                                    <!-- Features -->
+                                    <!-- <span class="submenu-indicator"></span> -->
+                                <!-- </a> -->
+                                <!-- <ul class="navigation-dropdown"> -->
+                                    <!-- <li class="navigation-dropdown-item"> -->
+                                        <!-- <a class="navigation-dropdown-link" href="https://zyrolul.itch.io/fatvalley">Anime</a> -->
+                                    <!-- </li> -->
+									
+                                <!-- </ul> -->
+                            <!-- </li> -->
+							<li class="navigation-dropdown-item">
+                                <a class="navigation-dropdown-link" href="index.html">Home</a>
+                            </li>
+							
+                            <li class="navigation-dropdown-item">
+                                <a class="navigation-dropdown-link" href="Faq.html">FAQ</a>
+                            </li>
+                        </ul>
                     </li>
+                    
                     <li class="navigation-item">
-                        <a class="navigation-link" href="https://discord.com/invite/5U5uaft">Discord</a>
+                        <a class="navigation-link" href="https://discord.com/invite/5U5uaft">News</a>
                     </li>
+                        
+                    
                 </ul>
             </div>
         </div>
     </nav>
+
 
     <!-- ... end Main Header -->
 
@@ -62,7 +89,7 @@
     <div class="main-content-wrapper">
         
 
-<section class="crumina-stunning-header pb60" style="background:url('img/bg.png') #80CBE0; background-position-y: -600px; background-position-x: -450px;">
+<section class="crumina-stunning-header pb60" style="background-position-y: -600px; background-position-x: -450px;">
     <div class="container">
         <div class="row justify-content-center align-center">
             <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
@@ -74,37 +101,28 @@
         </div>
     </div>
 </section>
+<section>
+    <center>
+
+        <div style="text-align: left; width: 70%; color:white;">
+            <h3>Game Rules</h3>
+            
+            
+            <table style="font-size: 24px;">
+                <tr><td style="width: 50px;">1.</td><td>Do <b style="color:red">NOT</b> use a modified clients.</td></tr>
+                <tr><td>2.</td><td>Do <b style="color:red">NOT</b> abuse bugs.</td></tr>
+                <tr><td>3.</td><td>Do <b style="color:red">NOT</b> do real money trading (RMT).</td></tr>
+                <tr><td>4.</td><td>Do <b style="color:red">NOT</b> do account sharing.</td></tr>
+                <tr><td>5.</td><td>Do <b style="color:red">NOT</b> do harassment  towards another player.</td></tr>
+                <tr><td>6.</td><td>Do <b style="color:red">NOT</b> do hate speech.</td></tr>
+                <tr><td>7.</td><td>Do <b style="color:red">NOT</b> use a botting program or macros.</td></tr>
+            </table>
+        </div>
 
 
-<section><center>
-<div class="flex-container">
-	<div class="item1">
-		<div class="text">
-			<h1>
-			ZERO PAY 2 WIN!
-			</h1>
-			<h5>Endorblast will not make money by selling buffs and other items that can boost your character stats of any kind!</h5>
-		</div>
-	</div>
-	<div class="item2">
-		<img src="https://i.imgur.com/qYDrhij.png" width="300px"></img>
-	</div>
-</div> 
-
-<div class="flex-container">
-	<div class="item2">
-		<img src="https://i.imgur.com/gfVl2P0.png" width="300px"></img>
-	</div>
-<div class="item1">
-	<div class="text">
-		<h1>Community Driven!</h1>
-		<h5>This game is driven on what the community wants!<br>
-		We <b>NEED</b> your feedback!</h5>
-	</div>
-  </div>
-</div> 
-
-</center></section>
+    </center>
+<br>
+</section>
 
 
 
@@ -115,9 +133,6 @@
     <!-- Footer -->
 
     <footer id="site-footer" class="footer footer--dark">
-
-        
-
         <div class="sub-footer bg-black">
             <div class="container">
                 <div class="row">
@@ -129,11 +144,11 @@
                 </div>
             </div>
         </div>
-
     </footer>
 
     <!-- ... end Footer -->
     <script src="js/jquery.min.js"></script>
+
     <script src="js/Bootstrap/bootstrap.bundle.min.js"></script>
     <script src="js/js-plugins/navigation.min.js"></script>
     <script src="js/js-plugins/material.min.js"></script>
@@ -142,7 +157,8 @@
     <script src="js/js-plugins/jquery.matchHeight.min.js"></script>
     <script src="js/main.js"></script>
     <script src="js/svg-loader.js"></script>
-
+	
+	
 </body>
 
 </html>
