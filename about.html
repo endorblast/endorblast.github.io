@@ -1,198 +1,174 @@
-<!DOCTYPE HTML>
+<!doctype html>
+<html lang="en">
 
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Zyro - About Game Engine</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script src="https://kit.fontawesome.com/37ee74e124.js" crossorigin="anonymous"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Endorblast</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/vendors/Bootstrap/bootstrap.min.css">
+
+    <link href="css/plugins/navigation.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="css/main.min.css">
+    <link rel="stylesheet" type="text/css" href="css/theme-font.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fatvalley.css">
+    <link rel="stylesheet" type="text/css" href="css/vendors/fontawesome/all.min.css">
+
+</head>
+<body >
+
+    <!-- Main Header -->
+
+    <nav id="navigation" class="site-header navigation navigation-justified header--sticky">
+        <div class="container">
+            <div class="navigation-header">
+                <div class="navigation-logo">
+                    <a href="index.html">
+                        <img loading="lazy" src="img/IconForPage.png" alt="logo">
+
+                    </a>
+                </div>
+                <div class="navigation-button-toggler">
+                    <i class="hamburger-icon"></i>
+                </div>
+            </div>
+            <div class="navigation-body">
+                <div class="navigation-body-header">
+                    <div class="navigation-logo">
+                        <a href="index.html">
 
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+                            <img loading="lazy" src="img/IconForPage.png" alt="logo">
 
-	<link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,700" rel="stylesheet">
+                        </a>
+                    </div>
+                    <span class="navigation-body-close-button">&#10005;</span>
+                </div>
+                <ul class="navigation-menu">
+
+					<li class="navigation-item">
+                        <a class="navigation-link" href="index.html">Home</a>
+					</li>
+					<li class="navigation-item">
+                        <a class="navigation-link" href="rules.html">Rules</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="about.html">About</a>
+                    </li>
+                    <!-- <li class="navigation-item">
+                        <a class="navigation-link" href="Faq.html">FAQ</a>
+                    </li> -->
+                    <li class="navigation-item">
+                        <a class="navigation-link" href="https://discord.com/invite/5U5uaft">News</a>
+                    </li>
+					<li class="navigation-item">
+                        <a class="navigation-link" href="https://zyrolul.itch.io/endorblast" style="color: palevioletred;">Store</a>
+                    </li>
+                    
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ... end Main Header -->
+
+
+    <div class="main-content-wrapper">
+        
+
+<section class="crumina-stunning-header pb60" style="background-position-y: -600px; background-position-x: -450px;">
+    <div class="container">
+        <div class="row justify-content-center align-center">
+            <div class="col-lg-8 col-md-10 col-sm-12 col-xs-12">
+                <div class="page-category">
+                </div>
+                <h1 class="page-title text-white">Endorblast</h1>
+                <p class="page-text text-white">A Game with no need for a wallet to play.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+
+<style>
+	.flexboxStyle{
+		display: flex;
 	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Themify Icons-->
-	<link rel="stylesheet" href="css/themify-icons.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+		flex-grow: 2;
+		-ms-flex-align: center;
+	}
 
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+	.flexDivStyle{
+		width: 90%;
+		padding: 20px;
+	}
 
-	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	.right{
+		text-align: right;
+	}
 
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	.left{
+		text-align: left;
+	}
+</style>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <center>
 
-	</head>
-	<body>
-		
-	<div class="gtco-loader"></div>
-	
-	<div id="page">
-
-		<nav class="gtco-nav" role="navigation">
-			<div class="gtco-container">
-				
-				<div class="row">
-					<div class="col-sm-2 col-xs-12">
-						<div id="gtco-logo"><a href="index.html"><img src="images/logo.png" alt="Free HTML5 Website Template by FreeHTML5.co"></a></div>
-					</div>
-					<div class="col-xs-10 text-right menu-1">
-						<ul>
-							<li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-							<li class="active"><a href="about.html"><i class="fas fa-address-card"></i> About</a></li>
-							<li class="has-dropdown">
-								<a><i class="fas fa-user-friends"></i> Social</a>
-								<ul class="dropdown">
-									<li><a href="#"><i class="fab fa-youtube"></i> YouTube</a></li>
-									<li><a href="#"><i class="fab fa-itch-io"></i> itch.io</a></li>
-									<li><a href="https://discord.gg/5U5uaft"><i class="fab fa-discord"></i> Discord</a></li>
-								</ul>
-							</li>
-							
-							
-							
-						</ul>
-					</div>
-				</div>
-				
-			</div>
-		</nav>
-
-		<header id="gtco-header" class="gtco-cover gtco-cover-xs gtco-inner" role="banner">
-			<div class="gtco-container">
-				<div class="row">
-					<div class="col-md-12 col-md-offset-0 text-left">
-						<div class="display-t">
-							<div class="display-tc">
-								<div class="row">
-									<div class="col-md-8 animate-box">
-										<h1 class="no-margin">About Us</h1>
-										<p>We are a indie game studio team working on our own 2D Side scroller MMORPG and therefore we are developing our own Game Engine to use called Endor Engine.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<!-- END #gtco-header -->
-
-		
-
-		<div class="gtco-services gtco-section">
-			<div class="gtco-container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2 gtco-heading text-center">
-						<h2>Our Team</h2>
-						<p>This is our team of our current developers on the game currently.</p>
-					</div>
-				</div>
-				<div class="row">
-
-					
-						<div class="owl-carousel owl-carousel-carousel">
-							<div class="item">
-								<div class="gtco-staff">
-									<img src="images/zyro.gif" alt="" class="img-responsive">
-									<h2>Zyro</h2>
-									<p class="role">Developer</p>
-									<p>Hi, Nothing important here :)</p>
-									<ul class="fh5co-social">
-										<li><a href="https://www.youtube.com/watch?v=d1YBv2mWll0"><i class="icon-facebook"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="item">
-								<div class="gtco-staff">
-									<img src="images/botpng.png" alt="" class="img-responsive">
-									<h2>Bot</h2>
-									<p class="role">Back End Developer</p>
-									<p>Hi, I'm the brain behind the backend of the server</p>
-									<ul class="fh5co-social">
-										<li><a href="https://www.youtube.com/watch?v=d1YBv2mWll0"><i class="icon-facebook"></i></a></li>
-									</ul>
-								</div>
-							</div>
-							
-							
-
-							
-						
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		
-
-		<footer id="gtco-footer" class="gtco-section" role="contentinfo">
+		<div class="flexboxStyle">
 			
-			<div class="gtco-copyright">
-				<div class="gtco-container">
-					<div class="row">
-						<div class="col-md-6 text-left">
-							<p><small>&copy; 2020 Endorblast. All Rights Reserved. </small></p>
-						</div>
-						<div class="col-md-6 text-right">
-							<p><small>:D</small> </p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
+			<div class="flexDivStyle right">We still working on this site so nothing here :)</div>
+			<div class="flexDivStyle left">IMAGE HERE</div>
 
-	</div>
+		</div>
 
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
+        <div style="text-align: left; width: 70%; color:white;">
+            <h3></h3>
+            
+        </div>
+
+
+    </center>
+<br>
+</section>
+
+
+
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer id="site-footer" class="footer">
+        <div class="sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center mb-0 mb-lg-0">
+                        <div class="copyright">
+                            <span>Copyright © 2020 <a href="https://zyrolul.github.io">Endorblast</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ... end Footer -->
+
+    <script src="js/jquery.min.js"></script>
+
+    <script src="js/Bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/js-plugins/navigation.min.js"></script>
+    <script src="js/js-plugins/material.min.js"></script>
+    <script src="js/js-plugins/swiper.min.js"></script>
+    <script src="js/js-plugins/smooth-scroll.min.js"></script>
+    <script src="js/js-plugins/jquery.matchHeight.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/svg-loader.js"></script>
 	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
 	
-	<!-- Main -->
-	<script src="js/main.js"></script>
+</body>
 
-	</body>
 </html>
-
