@@ -45,6 +45,11 @@ body {
     margin-right: 20px;
 }
 
+.headerIcon{
+    padding-right: 3px;
+    width: 30px;
+    image-rendering: crisp-edges;
+}
 
 
 
